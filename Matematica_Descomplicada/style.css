@@ -29,15 +29,12 @@ li{
     margin: 0 16px;
     padding: 24 0px;
 }
-
 li{
     color:rgb(10, 10, 10);
 }
-
 .sobreImagem{ 
     width: 22%;
 }
-
 .sobre{
     background-image: linear-gradient(#d60606,rgb(160, 4, 4));
     color:rgb(3, 0, 0);
@@ -45,4 +42,14 @@ li{
 }
 .membroImagem{
   width: 120px;
+}
+.membroIcone{
+    width: 40px;
+}
+.membroDiv{
+    text-align: center;
+}
+.membrosTitulo{
+    text-align: center;
+    padding: 50px;
 }
