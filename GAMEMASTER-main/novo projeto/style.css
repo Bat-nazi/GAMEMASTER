@@ -5,10 +5,23 @@
 
 body{ 
 
-    background-color: rgba(10, 10, 10, 0.712);
+    background-color: rgb(247, 247, 255);
     /*Cor de fundo */
-    color: rgb(250, 239, 239);
+    color: rgb(238, 231, 231);
     /*Cor da letra */
+}
+
+.container{
+    height: 100vh;
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+.container_botao{
+    background-color: rgb(1, 69, 129);
+    border-radius: 5px;
+    padding: 1em;
+    color:black;
+    display: block;
 }
 
 .principal{
@@ -16,9 +29,3 @@ body{
     background-repeat: no-repeat;
     background-size: contain;
 }
-
-.container{
-    height: 100vh;
-    width: 100vh;
-}
- 
